@@ -1,0 +1,243 @@
+{
+  "task": "Sunday-Walk-Positive-v13",
+  "observation_dim": 86,
+  "observation_fields": [
+    {
+      "name": "linear_velocity",
+      "start": 0,
+      "stop": 3
+    },
+    {
+      "name": "angular_velocity",
+      "start": 3,
+      "stop": 6
+    },
+    {
+      "name": "gravity",
+      "start": 6,
+      "stop": 9
+    },
+    {
+      "name": "command",
+      "start": 9,
+      "stop": 12
+    },
+    {
+      "name": "joints",
+      "start": 12,
+      "stop": 35
+    },
+    {
+      "name": "joint_velocity",
+      "start": 35,
+      "stop": 58
+    },
+    {
+      "name": "previous_action",
+      "start": 58,
+      "stop": 70
+    },
+    {
+      "name": "gait_clock",
+      "start": 70,
+      "stop": 72
+    },
+    {
+      "name": "heading",
+      "start": 72,
+      "stop": 74
+    },
+    {
+      "name": "applied_targets",
+      "start": 74,
+      "stop": 86
+    }
+  ],
+  "observation_joint_names": [
+    "r_shoulder_roll",
+    "head_rotation",
+    "l_shoulder_roll",
+    "l_hip_roll",
+    "r_hip_roll",
+    "r_shoulder_pitch",
+    "l_shoulder_pitch",
+    "l_hip_pitch",
+    "r_hip_pitch",
+    "r_elbow_yaw",
+    "l_elbow_yaw",
+    "l_thigh_yaw",
+    "r_thigh_yaw",
+    "r_elbow_pitch",
+    "l_elbow_pitch",
+    "l_knee_roll",
+    "r_knee_roll",
+    "r_wrist_yaw",
+    "l_wrist_yaw",
+    "l_ankle_roll",
+    "r_ankle_roll",
+    "l_ankle_pitch",
+    "r_ankle_pitch"
+  ],
+  "default_joint_position_rad": [
+    0.0,
+    0.0,
+    0.0,
+    -0.22734567523002625,
+    0.2273474931716919,
+    -0.5235987901687622,
+    -0.5235987901687622,
+    -0.018078794702887535,
+    -0.018077274784445763,
+    0.0,
+    0.0,
+    0.14444498717784882,
+    -0.1444464474916458,
+    0.0,
+    0.0,
+    -0.7228631973266602,
+    0.7228639125823975,
+    0.0,
+    0.0,
+    0.5400000214576721,
+    0.5399999618530273,
+    0.005302697420120239,
+    -0.005300960969179869
+  ],
+  "default_joint_velocity_rad_s": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "action_joint_names": [
+    "l_hip_roll",
+    "l_hip_pitch",
+    "l_thigh_yaw",
+    "l_knee_roll",
+    "l_ankle_roll",
+    "l_ankle_pitch",
+    "r_hip_roll",
+    "r_hip_pitch",
+    "r_thigh_yaw",
+    "r_knee_roll",
+    "r_ankle_roll",
+    "r_ankle_pitch"
+  ],
+  "static_leg_reference_rad": [
+    -0.22734567523002625,
+    -0.018078794702887535,
+    0.14444498717784882,
+    -0.7228631973266602,
+    0.5400000214576721,
+    0.005302697420120239,
+    0.2273474931716919,
+    -0.018077274784445763,
+    -0.1444464474916458,
+    0.7228639125823975,
+    0.5399999618530273,
+    -0.005300960969179869
+  ],
+  "leg_target_clip_rad": [
+    [
+      -0.5400000214576721,
+      0.5400000214576721
+    ],
+    [
+      -0.5400000214576721,
+      0.5400000214576721
+    ],
+    [
+      -0.36000001430511475,
+      0.36000001430511475
+    ],
+    [
+      -0.8999999761581421,
+      0.8999999761581421
+    ],
+    [
+      -0.5400000214576721,
+      0.5400000214576721
+    ],
+    [
+      -0.44999998807907104,
+      0.44999998807907104
+    ],
+    [
+      -0.5400000214576721,
+      0.5400000214576721
+    ],
+    [
+      -0.5400000214576721,
+      0.5400000214576721
+    ],
+    [
+      -0.36000001430511475,
+      0.36000001430511475
+    ],
+    [
+      -0.8999999761581421,
+      0.8999999761581421
+    ],
+    [
+      -0.5400000214576721,
+      0.5400000214576721
+    ],
+    [
+      -0.44999998807907104,
+      0.44999998807907104
+    ]
+  ],
+  "action_scale_rad": 0.2,
+  "leg_filter_alpha": 0.35,
+  "policy_dt_s": 0.02,
+  "physics_dt_s": 0.005,
+  "gait_cycle_s": 1.6,
+  "contact_gated_phase": false,
+  "observation_clip": 10.0,
+  "action_clip": 1.0,
+  "joint_velocity_observation_scale": 0.1,
+  "quaternion_order": "xyzw",
+  "heading_order": [
+    "cos_yaw",
+    "sin_yaw"
+  ],
+  "clock_order": [
+    "sin_phase",
+    "cos_phase"
+  ],
+  "arm_position_targets_rad": {
+    "l_shoulder_pitch": -0.5235987755982988,
+    "r_shoulder_pitch": -0.5235987755982988
+  },
+  "command": [
+    0.05,
+    0.0,
+    0.0
+  ],
+  "hardware_validated": false,
+  "self_collisions": false,
+  "sim_motor": {
+    "stiffness": 40.0,
+    "damping": 0.6,
+    "effort_limit_sim": 1.5
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "source_url": "https://www.viberobotics.co/docs",
+  "section": "Joint Motors",
+  "verified_date": "2026-11-12",
+  "model_label": "Vibe A1",
+  "diagram_description": "Joint coordinate system with every joint at zero",
+  "limit_description": "Documented safe range of motion; equality to mechanical hard stops not established by this page",
+  "missing_in_table": [
+    "dof_right_elbow_yaw",
+    "dof_left_elbow_yaw"
+  ],
+  "mapping_to_r25": "Not established by matching names alone; joint axes, zero offsets and variant must be checked",
+  "hardware_settings_changed": false,
+  "joints": [
+    {
+      "name": "dof_head_yaw",
+      "min_rad": -3.14,
+      "max_rad": 3.14,
+      "min_deg": -179.9087476710785,
+      "max_deg": 179.9087476710785
+    },
+    {
+      "name": "dof_right_shoulder_pitch",
+      "min_rad": -1.32,
+      "max_rad": 1.32,
+      "min_deg": -75.63042895726866,
+      "max_deg": 75.63042895726866
+    },
+    {
+      "name": "dof_right_shoulder_roll",
+      "min_rad": -2.29,
+      "max_rad": 0,
+      "min_deg": -131.20733508495852,
+      "max_deg": 0.0
+    },
+    {
+      "name": "dof_right_elbow_pitch",
+      "min_rad": -0.942,
+      "max_rad": 0.942,
+      "min_deg": -53.97262430132354,
+      "max_deg": 53.97262430132354
+    },
+    {
+      "name": "dof_right_wrist_yaw",
+      "min_rad": -1.5708,
+      "max_rad": 1.5708,
+      "min_deg": -90.00021045914971,
+      "max_deg": 90.00021045914971
+    },
+    {
+      "name": "dof_right_hand",
+      "min_rad": -0.0628,
+      "max_rad": 1.98,
+      "min_deg": -3.5981749534215695,
+      "max_deg": 113.445643435903
+    },
+    {
+      "name": "dof_right_hip_roll",
+      "min_rad": -1.07,
+      "max_rad": 1.07,
+      "min_deg": -61.30648407899809,
+      "max_deg": 61.30648407899809
+    },
+    {
+      "name": "dof_right_hip_pitch",
+      "min_rad": -0.534,
+      "max_rad": 0.723,
+      "min_deg": -30.59594625998596,
+      "max_deg": 41.424848587958515
+    },
+    {
+      "name": "dof_right_hip_yaw",
+      "min_rad": -0.754,
+      "max_rad": 0.754,
+      "min_deg": -43.20101775286407,
+      "max_deg": 43.20101775286407
+    },
+    {
+      "name": "dof_right_knee",
+      "min_rad": -1.23,
+      "max_rad": 1.6,
+      "min_deg": -70.47380880109125,
+      "max_deg": 91.67324722093173
+    },
+    {
+      "name": "dof_right_ankle_pitch",
+      "min_rad": -0.723,
+      "max_rad": 1.35,
+      "min_deg": -41.424848587958515,
+      "max_deg": 77.34930234266115
+    },
+    {
+      "name": "dof_right_ankle_roll",
+      "min_rad": -0.314,
+      "max_rad": 0.314,
+      "min_deg": -17.99087476710785,
+      "max_deg": 17.99087476710785
+    },
+    {
+      "name": "dof_left_shoulder_pitch",
+      "min_rad": -1.32,
+      "max_rad": 1.32,
+      "min_deg": -75.63042895726866,
+      "max_deg": 75.63042895726866
+    },
+    {
+      "name": "dof_left_shoulder_roll",
+      "min_rad": 0,
+      "max_rad": 2.29,
+      "min_deg": 0.0,
+      "max_deg": 131.20733508495852
+    },
+    {
+      "name": "dof_left_elbow_pitch",
+      "min_rad": -0.942,
+      "max_rad": 0.942,
+      "min_deg": -53.97262430132354,
+      "max_deg": 53.97262430132354
+    },
+    {
+      "name": "dof_left_wrist_yaw",
+      "min_rad": -1.5708,
+      "max_rad": 1.5708,
+      "min_deg": -90.00021045914971,
+      "max_deg": 90.00021045914971
+    },
+    {
+      "name": "dof_left_hand",
+      "min_rad": -0.0628,
+      "max_rad": 1.98,
+      "min_deg": -3.5981749534215695,
+      "max_deg": 113.445643435903
+    },
+    {
+      "name": "dof_left_hip_roll",
+      "min_rad": -1.07,
+      "max_rad": 1.07,
+      "min_deg": -61.30648407899809,
+      "max_deg": 61.30648407899809
+    },
+    {
+      "name": "dof_left_hip_pitch",
+      "min_rad": -0.723,
+      "max_rad": 0.534,
+      "min_deg": -41.424848587958515,
+      "max_deg": 30.59594625998596
+    },
+    {
+      "name": "dof_left_hip_yaw",
+      "min_rad": -0.754,
+      "max_rad": 0.754,
+      "min_deg": -43.20101775286407,
+      "max_deg": 43.20101775286407
+    },
+    {
+      "name": "dof_left_knee",
+      "min_rad": -1.23,
+      "max_rad": 1.6,
+      "min_deg": -70.47380880109125,
+      "max_deg": 91.67324722093173
+    },
+    {
+      "name": "dof_left_ankle_pitch",
+      "min_rad": -1.35,
+      "max_rad": 0.723,
+      "min_deg": -77.34930234266115,
+      "max_deg": 41.424848587958515
+    },
+    {
+      "name": "dof_left_ankle_roll",
+      "min_rad": -0.314,
+      "max_rad": 0.314,
+      "min_deg": -17.99087476710785,
+      "max_deg": 17.99087476710785
+    }
+  ]
+}

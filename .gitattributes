@@ -1,0 +1,9 @@
+* -text
+*.py text eol=lf
+*.md text eol=lf
+*.sh text eol=lf
+requirements*.txt text eol=lf
+# Contract, trajectory and other JSON byte hashes are intentional.
+*.json -text
+*.npz binary
+*.pt binary

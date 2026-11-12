@@ -1,0 +1,27 @@
+{
+  "imu": {
+    "bus": 7,
+    "address": 40,
+    "mode": 8,
+    "min_calibration": 3,
+    "axes_and_quaternion_verified": false,
+    "R_body_from_sensor": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "_note": "Placeholder mounting rotation, NOT the verified Jetson configuration. Import the existing config.confirmed.json before live run."
+}

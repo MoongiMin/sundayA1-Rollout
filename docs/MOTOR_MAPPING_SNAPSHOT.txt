@@ -1,0 +1,53 @@
+R25 MOTOR MAPPING - USER CONFIRMED AFTER MANUAL PHYSICAL CHECK
+Recorded: 2026-11-11 (America/Indianapolis)
+Contract SHA256: 300cf9bf8f25b0d18dcb7d35a090198f9c77a05ec7514ec2290ccc5011b3a1d1
+R25 checkpoint SHA256: 3bf72dd99c3c75049db74b4d50c94a6f3ce270af6887a7c048a16130b1ba6202
+Encoder scale: 4096 ticks/output revolution (assumed direct drive)
+Conversion: CAD angle rad = reference_angle_rad + sign * (tick - home_tick) * 2*pi/4096
+Home tick and range are stored per physical motor ID.
+Confirmation: user reported that all final joint IDs and directions match the robot;
+              no independent hardware measurement was made by this build script.
+
+BOARD USB SERIALS:
+  lower_body  5B3D042991
+  left_arm    5B3D040665
+  right_arm   5AE6082486
+
+BOARD       ID  CAD JOINT             SIGN  HOME  OBSERVED RANGE  REF ANGLE RAD
+----------- --  -------------------- ----  ----  --------------  -------------
+lower_body   7  r_hip_pitch            -1  2090  1473..3460      +0.010979
+lower_body   8  r_hip_roll             -1  1988  1047..2933      +0.417069
+lower_body   9  r_thigh_yaw            -1  2075  1506..2643      -0.278984
+lower_body  10  r_knee_roll            +1  1876  1354..2870      +0.510023
+lower_body  11  r_ankle_roll           -1  2203  1109..2511      +0.207162
+lower_body  12  r_ankle_pitch          -1  1985  1061..2992      -0.056437
+lower_body  19  l_hip_pitch            -1  2002   730..2693      -0.010791
+lower_body  20  l_hip_roll             -1  2138  1107..2951      -0.402972
+lower_body  21  l_thigh_yaw            -1  1906  1506..2583      +0.269004
+lower_body  22  l_knee_roll            -1  2119  1283..2933      -0.463225
+lower_body  23  l_ankle_roll           +1  2101  1522..3006      +0.170363
+lower_body  24  l_ankle_pitch          -1  2145   997..3060      +0.053483
+left_arm     1  l_shoulder_roll        -1  1824   838..3042      +0.000000
+left_arm     2  l_shoulder_pitch       +1  2045  1747..3671      +0.150000
+left_arm     3  l_elbow_yaw            -1  1989   991..3144      +0.000000
+left_arm     4  l_elbow_pitch          +1  2718  1104..3066      +1.000000
+left_arm     5  l_wrist_yaw            +1  2159   974..3249      +0.000000
+right_arm    1  r_shoulder_roll        -1  2110   957..3033      +0.000000
+right_arm    2  r_shoulder_pitch       -1  1962   379..2039      +0.150000
+right_arm    3  r_elbow_yaw            -1  1810   699..2957      +0.000000
+right_arm    4  r_elbow_pitch          -1  1678  1266..3214      +1.000000
+right_arm    5  r_wrist_yaw            +1  2205  1075..3349      +0.000000
+
+FINAL CORRECTIONS RELATIVE TO THE PREVIOUS PASSIVE MONITOR:
+  left shoulder pitch sign: -1 -> +1 (left_arm ID 2)
+  left shoulder roll sign:  +1 -> -1 (left_arm ID 1)
+  right ankle pitch sign:   +1 -> -1 (lower_body ID 12)
+  right ankle roll sign:    +1 -> -1 (lower_body ID 11)
+
+The bilateral shoulder, hip and ankle pitch/roll motor-ID swaps and
+both elbow-yaw sign flips are incorporated in the table above.
+
+Policy input limitations: body linear velocity is assumed/fixed, not measured;
+simulation dynamics and physical motor tracking remain separate issues.
+
+This Home is a new user-posed candidate, captured from whole_body_home_1794439281586950429.json.

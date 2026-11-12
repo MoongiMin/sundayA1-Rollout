@@ -1,0 +1,602 @@
+{
+  "source_checkpoint_sha256": "3bf72dd99c3c75049db74b4d50c94a6f3ce270af6887a7c048a16130b1ba6202",
+  "actor_npz_sha256": "5b0ee0a191b6aac1bf90ed03299cf2481b0bcf8d13069f3d8c67330f21905528",
+  "source_model_sha256": "c1168aee2b339adc15fa8fc3338e42c729dc92f0db07891c685cf96ca604bcd2",
+  "source_home_sha256": "877c3e74609dc365e37aa49f1816be5b1ad2343b796ae00bd71303cc2a6f21f4",
+  "revision": 25,
+  "observation_dim": 460,
+  "action_dim": 22,
+  "control_hz": 50,
+  "history_length": 5,
+  "observation_joint_names": [
+    "r_shoulder_roll",
+    "r_shoulder_pitch",
+    "r_elbow_yaw",
+    "r_elbow_pitch",
+    "r_wrist_yaw",
+    "r_finger_slide_top",
+    "r_finger_slide_bottom",
+    "l_shoulder_roll",
+    "l_shoulder_pitch",
+    "l_elbow_yaw",
+    "l_elbow_pitch",
+    "l_wrist_yaw",
+    "l_finger_slide_bottom",
+    "l_finger_slide_top",
+    "r_hip_roll",
+    "r_hip_pitch",
+    "r_thigh_yaw",
+    "r_knee_roll",
+    "r_ankle_roll",
+    "r_ankle_pitch",
+    "l_hip_roll",
+    "l_hip_pitch",
+    "l_thigh_yaw",
+    "l_knee_roll",
+    "l_ankle_roll",
+    "l_ankle_pitch",
+    "head_rotation"
+  ],
+  "default_joint_position_rad": [
+    0.0,
+    0.15,
+    0.0,
+    1.0,
+    0.0,
+    0.015,
+    0.015,
+    0.0,
+    0.15,
+    0.0,
+    1.0,
+    0.0,
+    0.015,
+    0.015,
+    0.41706862423583246,
+    0.010979425929693372,
+    -0.2789843715947236,
+    0.5100228055715467,
+    0.20716248240730534,
+    -0.056437182532283914,
+    -0.4029715291852583,
+    -0.01079125048360907,
+    0.26900421127504776,
+    -0.46322494815420884,
+    0.17036294772225158,
+    0.05348296885596228,
+    0.0
+  ],
+  "action_joint_names": [
+    "r_shoulder_roll",
+    "r_shoulder_pitch",
+    "r_elbow_yaw",
+    "r_elbow_pitch",
+    "r_wrist_yaw",
+    "l_shoulder_roll",
+    "l_shoulder_pitch",
+    "l_elbow_yaw",
+    "l_elbow_pitch",
+    "l_wrist_yaw",
+    "r_hip_roll",
+    "r_hip_pitch",
+    "r_thigh_yaw",
+    "r_knee_roll",
+    "r_ankle_roll",
+    "r_ankle_pitch",
+    "l_hip_roll",
+    "l_hip_pitch",
+    "l_thigh_yaw",
+    "l_knee_roll",
+    "l_ankle_roll",
+    "l_ankle_pitch"
+  ],
+  "joints": {
+    "r_shoulder_roll": {
+      "board": "right_arm",
+      "id": 1,
+      "sign": -1,
+      "home_tick": 2110,
+      "observed_min_tick": 957,
+      "observed_max_tick": 3033,
+      "reference_angle_rad": 0.0
+    },
+    "r_shoulder_pitch": {
+      "board": "right_arm",
+      "id": 2,
+      "sign": -1,
+      "home_tick": 1962,
+      "observed_min_tick": 379,
+      "observed_max_tick": 2039,
+      "reference_angle_rad": 0.15
+    },
+    "r_elbow_yaw": {
+      "board": "right_arm",
+      "id": 3,
+      "sign": -1,
+      "home_tick": 1810,
+      "observed_min_tick": 699,
+      "observed_max_tick": 2957,
+      "reference_angle_rad": 0.0
+    },
+    "r_elbow_pitch": {
+      "board": "right_arm",
+      "id": 4,
+      "sign": -1,
+      "home_tick": 1678,
+      "observed_min_tick": 1266,
+      "observed_max_tick": 3214,
+      "reference_angle_rad": 1.0
+    },
+    "r_wrist_yaw": {
+      "board": "right_arm",
+      "id": 5,
+      "sign": 1,
+      "home_tick": 2205,
+      "observed_min_tick": 1075,
+      "observed_max_tick": 3349,
+      "reference_angle_rad": 0.0
+    },
+    "l_shoulder_roll": {
+      "board": "left_arm",
+      "id": 1,
+      "sign": -1,
+      "home_tick": 1824,
+      "observed_min_tick": 838,
+      "observed_max_tick": 3042,
+      "reference_angle_rad": 0.0
+    },
+    "l_shoulder_pitch": {
+      "board": "left_arm",
+      "id": 2,
+      "sign": 1,
+      "home_tick": 2045,
+      "observed_min_tick": 1747,
+      "observed_max_tick": 3671,
+      "reference_angle_rad": 0.15
+    },
+    "l_elbow_yaw": {
+      "board": "left_arm",
+      "id": 3,
+      "sign": -1,
+      "home_tick": 1989,
+      "observed_min_tick": 991,
+      "observed_max_tick": 3144,
+      "reference_angle_rad": 0.0
+    },
+    "l_elbow_pitch": {
+      "board": "left_arm",
+      "id": 4,
+      "sign": 1,
+      "home_tick": 2718,
+      "observed_min_tick": 1104,
+      "observed_max_tick": 3066,
+      "reference_angle_rad": 1.0
+    },
+    "l_wrist_yaw": {
+      "board": "left_arm",
+      "id": 5,
+      "sign": 1,
+      "home_tick": 2159,
+      "observed_min_tick": 974,
+      "observed_max_tick": 3249,
+      "reference_angle_rad": 0.0
+    },
+    "r_hip_roll": {
+      "board": "lower_body",
+      "id": 8,
+      "sign": -1,
+      "home_tick": 1988,
+      "observed_min_tick": 1047,
+      "observed_max_tick": 2933,
+      "reference_angle_rad": 0.41706862423583246
+    },
+    "r_hip_pitch": {
+      "board": "lower_body",
+      "id": 7,
+      "sign": -1,
+      "home_tick": 2090,
+      "observed_min_tick": 1473,
+      "observed_max_tick": 3460,
+      "reference_angle_rad": 0.010979425929693372
+    },
+    "r_thigh_yaw": {
+      "board": "lower_body",
+      "id": 9,
+      "sign": -1,
+      "home_tick": 2075,
+      "observed_min_tick": 1506,
+      "observed_max_tick": 2643,
+      "reference_angle_rad": -0.2789843715947236
+    },
+    "r_knee_roll": {
+      "board": "lower_body",
+      "id": 10,
+      "sign": 1,
+      "home_tick": 1876,
+      "observed_min_tick": 1354,
+      "observed_max_tick": 2870,
+      "reference_angle_rad": 0.5100228055715467
+    },
+    "r_ankle_roll": {
+      "board": "lower_body",
+      "id": 11,
+      "sign": -1,
+      "home_tick": 2203,
+      "observed_min_tick": 1109,
+      "observed_max_tick": 2511,
+      "reference_angle_rad": 0.20716248240730534
+    },
+    "r_ankle_pitch": {
+      "board": "lower_body",
+      "id": 12,
+      "sign": -1,
+      "home_tick": 1985,
+      "observed_min_tick": 1061,
+      "observed_max_tick": 2992,
+      "reference_angle_rad": -0.056437182532283914
+    },
+    "l_hip_roll": {
+      "board": "lower_body",
+      "id": 20,
+      "sign": -1,
+      "home_tick": 2138,
+      "observed_min_tick": 1107,
+      "observed_max_tick": 2951,
+      "reference_angle_rad": -0.4029715291852583
+    },
+    "l_hip_pitch": {
+      "board": "lower_body",
+      "id": 19,
+      "sign": -1,
+      "home_tick": 2002,
+      "observed_min_tick": 730,
+      "observed_max_tick": 2693,
+      "reference_angle_rad": -0.01079125048360907
+    },
+    "l_thigh_yaw": {
+      "board": "lower_body",
+      "id": 21,
+      "sign": -1,
+      "home_tick": 1906,
+      "observed_min_tick": 1506,
+      "observed_max_tick": 2583,
+      "reference_angle_rad": 0.26900421127504776
+    },
+    "l_knee_roll": {
+      "board": "lower_body",
+      "id": 22,
+      "sign": -1,
+      "home_tick": 2119,
+      "observed_min_tick": 1283,
+      "observed_max_tick": 2933,
+      "reference_angle_rad": -0.46322494815420884
+    },
+    "l_ankle_roll": {
+      "board": "lower_body",
+      "id": 23,
+      "sign": 1,
+      "home_tick": 2101,
+      "observed_min_tick": 1522,
+      "observed_max_tick": 3006,
+      "reference_angle_rad": 0.17036294772225158
+    },
+    "l_ankle_pitch": {
+      "board": "lower_body",
+      "id": 24,
+      "sign": -1,
+      "home_tick": 2145,
+      "observed_min_tick": 997,
+      "observed_max_tick": 3060,
+      "reference_angle_rad": 0.05348296885596228
+    }
+  },
+  "action_scales_rad": {
+    "r_shoulder_roll": 0.25,
+    "r_shoulder_pitch": 0.1,
+    "r_elbow_yaw": 0.1,
+    "r_elbow_pitch": 0.15,
+    "r_wrist_yaw": 0.06,
+    "l_shoulder_roll": 0.25,
+    "l_shoulder_pitch": 0.1,
+    "l_elbow_yaw": 0.1,
+    "l_elbow_pitch": 0.15,
+    "l_wrist_yaw": 0.06,
+    "r_hip_roll": 0.45,
+    "r_hip_pitch": 0.35,
+    "r_thigh_yaw": 0.35,
+    "r_knee_roll": 0.65,
+    "r_ankle_roll": 0.45,
+    "r_ankle_pitch": 0.35,
+    "l_hip_roll": 0.45,
+    "l_hip_pitch": 0.35,
+    "l_thigh_yaw": 0.35,
+    "l_knee_roll": 0.65,
+    "l_ankle_roll": 0.45,
+    "l_ankle_pitch": 0.35
+  },
+  "action_speeds_rad_s": {
+    "r_shoulder_roll": 4.0,
+    "r_shoulder_pitch": 4.0,
+    "r_elbow_yaw": 4.0,
+    "r_elbow_pitch": 4.0,
+    "r_wrist_yaw": 4.0,
+    "l_shoulder_roll": 4.0,
+    "l_shoulder_pitch": 4.0,
+    "l_elbow_yaw": 4.0,
+    "l_elbow_pitch": 4.0,
+    "l_wrist_yaw": 4.0,
+    "r_hip_roll": 4.0,
+    "r_hip_pitch": 4.0,
+    "r_thigh_yaw": 4.0,
+    "r_knee_roll": 4.0,
+    "r_ankle_roll": 4.0,
+    "r_ankle_pitch": 4.0,
+    "l_hip_roll": 4.0,
+    "l_hip_pitch": 4.0,
+    "l_thigh_yaw": 4.0,
+    "l_knee_roll": 4.0,
+    "l_ankle_roll": 4.0,
+    "l_ankle_pitch": 4.0
+  },
+  "soft_joint_limits_rad": {
+    "r_shoulder_roll": [
+      -1.335177,
+      1.335177
+    ],
+    "r_shoulder_pitch": [
+      -0.13089954999999986,
+      2.2252905499999995
+    ],
+    "r_elbow_yaw": [
+      -1.41372,
+      1.41372
+    ],
+    "r_elbow_pitch": [
+      -1.42681,
+      1.1650099999999999
+    ],
+    "r_wrist_yaw": [
+      -1.41372,
+      1.41372
+    ],
+    "l_shoulder_roll": [
+      -1.335177,
+      1.335177
+    ],
+    "l_shoulder_pitch": [
+      -0.13089954999999986,
+      2.2252905499999995
+    ],
+    "l_elbow_yaw": [
+      -1.41372,
+      1.41372
+    ],
+    "l_elbow_pitch": [
+      -1.42681,
+      1.1650099999999999
+    ],
+    "l_wrist_yaw": [
+      -1.41372,
+      1.41372
+    ],
+    "r_hip_roll": [
+      -1.256634,
+      1.256634
+    ],
+    "r_hip_pitch": [
+      -2.1162136,
+      0.6326816000000001
+    ],
+    "r_thigh_yaw": [
+      -0.7068582000000001,
+      0.7068582000000001
+    ],
+    "r_knee_roll": [
+      -0.9162999999999999,
+      1.4399
+    ],
+    "r_ankle_roll": [
+      -0.41887905000000014,
+      1.46608005
+    ],
+    "r_ankle_pitch": [
+      -0.4712391,
+      0.4712391
+    ],
+    "l_hip_roll": [
+      -1.256634,
+      1.256634
+    ],
+    "l_hip_pitch": [
+      -0.6326816000000001,
+      2.1162136
+    ],
+    "l_thigh_yaw": [
+      -0.7068582000000001,
+      0.7068582000000001
+    ],
+    "l_knee_roll": [
+      -1.4399,
+      0.9162999999999999
+    ],
+    "l_ankle_roll": [
+      -0.41887905000000014,
+      1.46608005
+    ],
+    "l_ankle_pitch": [
+      -0.4712391,
+      0.4712391
+    ]
+  },
+  "stationary_observation_defaults": {
+    "r_finger_slide_top": 0.015,
+    "r_finger_slide_bottom": 0.015,
+    "l_finger_slide_bottom": 0.015,
+    "l_finger_slide_top": 0.015,
+    "head_rotation": 0.0
+  },
+  "home_alignment": {
+    "status": "user_captured_22_joint_home_candidate",
+    "source": "whole_body_home_1794439281586950429.json",
+    "capture_sha256": "d8e2e0d3b14fc2cc444d7a5326c77d6353d1a213b67e6c0a94bfbb066549612e",
+    "source_contract_sha256": "43fdd9d9bd6e758676d4c478942b4ad9b94a8f9c0e4936c22a6d2ebb4f3c4f65",
+    "captured_at_unix_ns": 1794439281586950429,
+    "samples_per_motor": 10,
+    "previous_home_ticks_by_joint": {
+      "r_shoulder_roll": 2196,
+      "r_shoulder_pitch": 1778,
+      "r_elbow_yaw": 1845,
+      "r_elbow_pitch": 1493,
+      "r_wrist_yaw": 2210,
+      "l_shoulder_roll": 1658,
+      "l_shoulder_pitch": 2057,
+      "l_elbow_yaw": 2001,
+      "l_elbow_pitch": 2695,
+      "l_wrist_yaw": 2144,
+      "r_hip_roll": 1763,
+      "r_hip_pitch": 2040,
+      "r_thigh_yaw": 2208,
+      "r_knee_roll": 1944,
+      "r_ankle_roll": 2029,
+      "r_ankle_pitch": 1806,
+      "l_hip_roll": 2218,
+      "l_hip_pitch": 2078,
+      "l_thigh_yaw": 1926,
+      "l_knee_roll": 1861,
+      "l_ankle_roll": 2070,
+      "l_ankle_pitch": 2273
+    },
+    "motor_ids_signs_and_reference_angles_preserved": true,
+    "physical_home_pose_validation_pending": true
+  },
+  "direction_mapping": {
+    "source": "four user-observed sign flips on top of bilateral axis review",
+    "numeric_signs_and_board_ids_match_v73": false,
+    "board_ids_match_v73": false,
+    "sign_formula": "r25_sign = v73_sign * axis_alignment_v73_to_r25",
+    "corrected_joints": [
+      "r_shoulder_pitch",
+      "l_shoulder_pitch",
+      "l_elbow_pitch",
+      "r_ankle_pitch",
+      "l_hip_pitch",
+      "l_ankle_pitch"
+    ],
+    "home_ticks_modified_by_this_direction_release": false,
+    "physical_direction_recheck_pending": true
+  },
+  "assumptions": [
+    "All 22 board IDs use V73 physical mapping transformed to R25 axes. The five left-arm Home ticks use the user's manually posed R25 Home capture; the other 17 Home ticks remain prior candidates.",
+    "Each encoder has 4096 ticks per output revolution and direct drive.",
+    "Previous confirmed board IDs and directions remain valid; hand-measured ranges are metadata only.",
+    "Finger slider and head observations are held at the R25 simulated Home values.",
+    "Body linear velocity is assumed zero only for a supported stationary-base bench test."
+  ],
+  "hip_axis_swap": {
+    "source_contract_sha256": "9201d9f7026f512db3e75607b3470e2b9fbc6f4ec1ebc85269dd63390751ad16",
+    "reason": "Hardware ID 7/19 moves hip forward-back; R25 CAD hip_roll is forward-back. Hardware ID 8/20 moves hip inward-outward; R25 CAD hip_pitch is inward-outward.",
+    "pairs": [
+      [
+        "r_hip_roll",
+        "r_hip_pitch"
+      ],
+      [
+        "l_hip_roll",
+        "l_hip_pitch"
+      ]
+    ],
+    "motor_fields_moved_together": [
+      "board",
+      "id",
+      "sign",
+      "home_tick",
+      "observed_min_tick",
+      "observed_max_tick"
+    ],
+    "reference_angles_stay_with_cad_joint": true,
+    "knee_and_ankle_id_sign_home_unchanged": true,
+    "previous_motor_fields": {
+      "r_hip_roll": {
+        "board": "lower_body",
+        "id": 8,
+        "sign": -1,
+        "home_tick": 1763,
+        "observed_min_tick": 1047,
+        "observed_max_tick": 2933
+      },
+      "r_hip_pitch": {
+        "board": "lower_body",
+        "id": 7,
+        "sign": -1,
+        "home_tick": 2040,
+        "observed_min_tick": 1473,
+        "observed_max_tick": 3460
+      },
+      "l_hip_roll": {
+        "board": "lower_body",
+        "id": 20,
+        "sign": -1,
+        "home_tick": 2218,
+        "observed_min_tick": 1107,
+        "observed_max_tick": 2951
+      },
+      "l_hip_pitch": {
+        "board": "lower_body",
+        "id": 19,
+        "sign": -1,
+        "home_tick": 2078,
+        "observed_min_tick": 730,
+        "observed_max_tick": 2693
+      }
+    },
+    "physical_direction_recheck_pending": true
+  },
+  "axis_review": {
+    "source_contract_sha256": "c54b928a4c539e13a26b58ad4d6f682ea9dabc119e4a2d80b87597a2b9f3049f",
+    "source_is_current_viser_mapping": true,
+    "motor_field_swap_pairs": [
+      [
+        "r_shoulder_roll",
+        "r_shoulder_pitch"
+      ],
+      [
+        "l_shoulder_roll",
+        "l_shoulder_pitch"
+      ],
+      [
+        "r_hip_roll",
+        "r_hip_pitch"
+      ],
+      [
+        "l_hip_roll",
+        "l_hip_pitch"
+      ],
+      [
+        "r_ankle_roll",
+        "r_ankle_pitch"
+      ],
+      [
+        "l_ankle_roll",
+        "l_ankle_pitch"
+      ]
+    ],
+    "elbow_yaw_sign_flipped": [
+      "r_elbow_yaw",
+      "l_elbow_yaw"
+    ],
+    "cad_reference_angles_unchanged": true,
+    "physical_direction_recheck_required": true
+  },
+  "four_sign_correction": {
+    "source_contract_sha256": "e07ef524f57938e2ae3d05b5b776d07b548230dcdce2f31647ae1f1a01f39cd2",
+    "source": "user-observed physical direction during passive manual motion",
+    "flipped_signs": [
+      "l_shoulder_pitch",
+      "l_shoulder_roll",
+      "r_ankle_pitch",
+      "r_ankle_roll"
+    ],
+    "motor_ids_home_ticks_ranges_unchanged": true,
+    "recheck_required": true
+  }
+}

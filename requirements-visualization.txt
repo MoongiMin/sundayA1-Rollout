@@ -1,0 +1,4 @@
+-r requirements.txt
+mujoco==4.0.0
+viser==1.1.1
+trimesh==5.2.0

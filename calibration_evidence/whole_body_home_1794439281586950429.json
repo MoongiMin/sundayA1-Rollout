@@ -1,0 +1,166 @@
+{
+  "source": "User-posed physical Home captured from live motor positions",
+  "complete": true,
+  "motor_commands_sent": false,
+  "captured_at_unix_ns": 1794439281586950429,
+  "board_ports": {
+    "lower_body": "/dev/serial/by-id/usb-1a86_USB_Single_Serial_5B3D042991-if00",
+    "left_arm": "/dev/serial/by-id/usb-1a86_USB_Single_Serial_5B3D040665-if00",
+    "right_arm": "/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6082486-if00"
+  },
+  "samples_per_motor": 10,
+  "max_allowed_spread_tick": 8,
+  "home": {
+    "lower_body": {
+      "7": {
+        "home_tick": 2090,
+        "sample_min_tick": 2090,
+        "sample_max_tick": 2090,
+        "sample_spread_tick": 0
+      },
+      "8": {
+        "home_tick": 1988,
+        "sample_min_tick": 1988,
+        "sample_max_tick": 1988,
+        "sample_spread_tick": 0
+      },
+      "9": {
+        "home_tick": 2075,
+        "sample_min_tick": 2075,
+        "sample_max_tick": 2075,
+        "sample_spread_tick": 0
+      },
+      "10": {
+        "home_tick": 1876,
+        "sample_min_tick": 1876,
+        "sample_max_tick": 1876,
+        "sample_spread_tick": 0
+      },
+      "11": {
+        "home_tick": 2203,
+        "sample_min_tick": 2203,
+        "sample_max_tick": 2203,
+        "sample_spread_tick": 0
+      },
+      "12": {
+        "home_tick": 1985,
+        "sample_min_tick": 1985,
+        "sample_max_tick": 1985,
+        "sample_spread_tick": 0
+      },
+      "19": {
+        "home_tick": 2002,
+        "sample_min_tick": 2002,
+        "sample_max_tick": 2002,
+        "sample_spread_tick": 0
+      },
+      "20": {
+        "home_tick": 2138,
+        "sample_min_tick": 2138,
+        "sample_max_tick": 2138,
+        "sample_spread_tick": 0
+      },
+      "21": {
+        "home_tick": 1906,
+        "sample_min_tick": 1906,
+        "sample_max_tick": 1906,
+        "sample_spread_tick": 0
+      },
+      "22": {
+        "home_tick": 2119,
+        "sample_min_tick": 2119,
+        "sample_max_tick": 2119,
+        "sample_spread_tick": 0
+      },
+      "23": {
+        "home_tick": 2101,
+        "sample_min_tick": 2101,
+        "sample_max_tick": 2101,
+        "sample_spread_tick": 0
+      },
+      "24": {
+        "home_tick": 2145,
+        "sample_min_tick": 2145,
+        "sample_max_tick": 2145,
+        "sample_spread_tick": 0
+      }
+    },
+    "left_arm": {
+      "1": {
+        "home_tick": 1824,
+        "sample_min_tick": 1824,
+        "sample_max_tick": 1824,
+        "sample_spread_tick": 0
+      },
+      "2": {
+        "home_tick": 2045,
+        "sample_min_tick": 2045,
+        "sample_max_tick": 2045,
+        "sample_spread_tick": 0
+      },
+      "3": {
+        "home_tick": 1989,
+        "sample_min_tick": 1989,
+        "sample_max_tick": 1989,
+        "sample_spread_tick": 0
+      },
+      "4": {
+        "home_tick": 2718,
+        "sample_min_tick": 2718,
+        "sample_max_tick": 2718,
+        "sample_spread_tick": 0
+      },
+      "5": {
+        "home_tick": 2159,
+        "sample_min_tick": 2159,
+        "sample_max_tick": 2159,
+        "sample_spread_tick": 0
+      },
+      "6": {
+        "home_tick": 1825,
+        "sample_min_tick": 1825,
+        "sample_max_tick": 1825,
+        "sample_spread_tick": 0
+      }
+    },
+    "right_arm": {
+      "1": {
+        "home_tick": 2110,
+        "sample_min_tick": 2110,
+        "sample_max_tick": 2110,
+        "sample_spread_tick": 0
+      },
+      "2": {
+        "home_tick": 1962,
+        "sample_min_tick": 1962,
+        "sample_max_tick": 1962,
+        "sample_spread_tick": 0
+      },
+      "3": {
+        "home_tick": 1810,
+        "sample_min_tick": 1810,
+        "sample_max_tick": 1810,
+        "sample_spread_tick": 0
+      },
+      "4": {
+        "home_tick": 1678,
+        "sample_min_tick": 1678,
+        "sample_max_tick": 1678,
+        "sample_spread_tick": 0
+      },
+      "5": {
+        "home_tick": 2205,
+        "sample_min_tick": 2205,
+        "sample_max_tick": 2205,
+        "sample_spread_tick": 0
+      },
+      "6": {
+        "home_tick": 2688,
+        "sample_min_tick": 2688,
+        "sample_max_tick": 2688,
+        "sample_spread_tick": 0
+      }
+    }
+  },
+  "note": "Motor Home ticks only; no CAD angle, sign, or motor homing offset was changed."
+}

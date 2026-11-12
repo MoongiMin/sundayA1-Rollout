@@ -1,0 +1,155 @@
+{
+  "upstream_commit": "f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1",
+  "files": [
+    {
+      "path": "assets/Week4/model/sunday_a1_locomotion.xml",
+      "sha256": "c1168aee2b339adc15fa8fc3338e42c729dc92f0db07891c685cf96ca604bcd2",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/sunday_a1_locomotion.xml"
+    },
+    {
+      "path": "assets/Week4/model/arm_clearance_home.json",
+      "sha256": "877c3e74609dc365e37aa49f1816be5b1ad2343b796ae00bd71303cc2a6f21f4",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/arm_clearance_home.json"
+    },
+    {
+      "path": "assets/Week4/model/meshes/base_link.stl",
+      "sha256": "9846d5d9fc65df47f96be9a07e7fc588ec38c90654d44037ddab8bc0eaa17d12",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/base_link.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/head_1.stl",
+      "sha256": "b788dd1feaaeda9cafb5044d129d0758a8297c6bcf9f354966e0a4f7e1ec4a2b",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/head_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/l_ankle_link_1.stl",
+      "sha256": "93a99fc4f74c1c579c92379227035a695b3246e459561584c3fdf09d2a0bd4d7",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/l_ankle_link_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/l_bicep_link_1.stl",
+      "sha256": "11683cda17b1a55e14c1a08ad2404d4c2357e78375bf9e6430be778707c21780",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/l_bicep_link_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/l_calf_link_1.stl",
+      "sha256": "ccdf24ebc0198501a7f93a7bb7353a38e3ebc8602c270fe87e67f611c1c6ad48",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/l_calf_link_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/l_finger_bottom_1.stl",
+      "sha256": "5f92b3b131be50b0b4ef3c6f6873f77dc5003a702949843194d8e48fae7942cf",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/l_finger_bottom_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/l_finger_top_1.stl",
+      "sha256": "a2c13aca66c895fbed366c6a9ec2fd201ac7bf5c5e696e6c5dcbc7139c5c7a6d",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/l_finger_top_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/l_foot_link_1.stl",
+      "sha256": "9ad2b9f4cd69393b38441568d7179c6d2343f240499426ae26ba0d7a018d5abb",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/l_foot_link_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/l_gripper_base_1.stl",
+      "sha256": "4de8b1a2a7299efa2e48bdf317d0bc0432a6a42629d4229963412bf7138ead77",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/l_gripper_base_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/l_hip_link_1.stl",
+      "sha256": "51c609bbc68560b15f7fd1bbcc2abfee304e4f4ce1effe078457dd8e32019240",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/l_hip_link_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/l_knee_link_1.stl",
+      "sha256": "61c3c81f28ed0167982bc4c7ba14287a44a0ca1cb0816875e7d4199b7ebac31d",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/l_knee_link_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/l_lower_arm_link_1.stl",
+      "sha256": "621994f936f13622c8a29ecd74ee17a19fb54231b95ba8e2bc82e80e6787df52",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/l_lower_arm_link_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/l_shoulder_link_1.stl",
+      "sha256": "599e90a2bb3be3349b6bc2fc1830fa22ed2e077c5b21fd1ce95d0938b7cbd42a",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/l_shoulder_link_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/l_thigh_link_1.stl",
+      "sha256": "c9fcf6ad942b3af6d2f0cd8692676116c8e02503bfea7ced54bf5bf656d01a15",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/l_thigh_link_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/l_upper_arm_link_1.stl",
+      "sha256": "bb7f21b63ca311038bb352bc5ab7f6cab019deb2da7cc74335d1eacd9c1f4c09",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/l_upper_arm_link_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/r_ankle_link_1.stl",
+      "sha256": "81ae4845e2057cba389f358dcd7f48bf4c1d7c344d7e2602f4ad2f43edde91b1",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/r_ankle_link_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/r_bicep_link_1.stl",
+      "sha256": "2498ca3f9c1115ff804e85fa4fcb45c7b72ffaddd23c7dcfe1e28d82ee6660b6",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/r_bicep_link_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/r_calf_link_1.stl",
+      "sha256": "9674721bc3324faf5e67d66378b2df495e35c457a633622301b691a12de767cb",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/r_calf_link_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/r_finger_bottom_1.stl",
+      "sha256": "03ec9322fe8542d333177d1e46046f7e13139c70e937f56b9420ee4186931e71",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/r_finger_bottom_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/r_finger_top_1.stl",
+      "sha256": "f973842e3eb9df022465a7ca4990d64d942b02eef7d031260227f8b6a5dfe86b",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/r_finger_top_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/r_foot_link_1.stl",
+      "sha256": "6e1b865d8807abcda73a11fb3948802aa5c9919973f2e849d1e74f4e75a2e54b",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/r_foot_link_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/r_gripper_base_1.stl",
+      "sha256": "a8ac8dd0d0033c78c257d4aff12c9c90581e38b860c028280dbc47808a21d710",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/r_gripper_base_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/r_hip_link_1.stl",
+      "sha256": "37d46c700dc4dab4fc412529e33daf3aa72ce93d8ed459c1016d5c416e07889e",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/r_hip_link_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/r_knee_link_1.stl",
+      "sha256": "28abe5b4e7aedcb1bf1b050737e84225532b107e9e0ce6d43aa31997ce8639cc",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/r_knee_link_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/r_lower_arm_link_1.stl",
+      "sha256": "d3a3882517a461a2eb39143fe737e9a401188385ed2614c4827fc0e829a1c448",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/r_lower_arm_link_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/r_shoulder_link_1.stl",
+      "sha256": "40face1e892f7b84a19f5ecc9adc32f7f666aae78471524bbea8644debfa62fa",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/r_shoulder_link_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/r_thigh_link_1.stl",
+      "sha256": "a7252b041089885108d97eab38e1504bd13942cd4a959603aeecca3f46c5a8bf",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/r_thigh_link_1.stl"
+    },
+    {
+      "path": "assets/Week4/model/meshes/r_upper_arm_link_1.stl",
+      "sha256": "c0d03363462c82c5f48ed7b73605f0f231d02d0c41ae6d821f7da266b9864df7",
+      "url": "https://raw.githubusercontent.com/Auspr7ng/mars-weekly-progress/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/meshes/r_upper_arm_link_1.stl"
+    }
+  ]
+}

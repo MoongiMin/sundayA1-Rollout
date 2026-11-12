@@ -1,0 +1,23 @@
+{
+  "lower_body": {
+    "serial": "5B3D042991",
+    "stable_port": "/dev/serial/by-id/usb-1a86_USB_Single_Serial_5B3D042991-if00",
+    "current_port": "/dev/ttyACM0",
+    "socket_location_at_capture": "1-2.1:1.0",
+    "usb_id": "1a86:55d3"
+  },
+  "left_arm": {
+    "serial": "5B3D040665",
+    "stable_port": "/dev/serial/by-id/usb-1a86_USB_Single_Serial_5B3D040665-if00",
+    "current_port": "/dev/ttyACM2",
+    "socket_location_at_capture": "1-2.4:1.0",
+    "usb_id": "1a86:55d3"
+  },
+  "right_arm": {
+    "serial": "5AE6082486",
+    "stable_port": "/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6082486-if00",
+    "current_port": "/dev/ttyACM1",
+    "socket_location_at_capture": "1-2.2:1.0",
+    "usb_id": "1a86:55d3"
+  }
+}

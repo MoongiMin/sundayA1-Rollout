@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.jsonl
+*.poses.json
+*.mp4
+*.gif
+config.confirmed.json
+board_ports.json
+manual_calibration/
+assets/
+*.backup*
+*.zip

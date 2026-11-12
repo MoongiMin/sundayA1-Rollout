@@ -1,0 +1,141 @@
+{
+  "captured_date": "2026-11-12",
+  "files": [
+    {
+      "path": "r25_rollout.py",
+      "source": "walkingrl/deployment/jetson_r25/new_home_release/r25_rollout.py",
+      "source_sha256": "66b80e6367196bb3ffbcc635275c36256f0e1ae64081b4d8a0bb7508957f5e47"
+    },
+    {
+      "path": "r25_contract.json",
+      "source": "walkingrl/deployment/jetson_r25/new_home_release/r25_contract.json",
+      "source_sha256": "300cf9bf8f25b0d18dcb7d35a090198f9c77a05ec7514ec2290ccc5011b3a1d1"
+    },
+    {
+      "path": "r25_actor.npz",
+      "source": "walkingrl/deployment/jetson_r25/new_home_release/r25_actor.npz",
+      "source_sha256": "5b0ee0a191b6aac1bf90ed03299cf2481b0bcf8d13069f3d8c67330f21905528"
+    },
+    {
+      "path": "play_sim_trajectory.py",
+      "source": "walkingrl/deployment/jetson_r25/new_home_release/play_sim_trajectory.py",
+      "source_sha256": "feadb7e5db2272a4728d88ca15e5ab4a86544adee7e000b40d0051113011b349"
+    },
+    {
+      "path": "r25_sim_forward_10s.trajectory.json",
+      "source": "walkingrl/deployment/jetson_r25/new_home_release/r25_sim_forward_10s.trajectory.json",
+      "source_sha256": "7de9a6b206c6c2ff5797a1988513984b2dd57b539bd032a5deab55b14a025996"
+    },
+    {
+      "path": "monitor_joint_motion.py",
+      "source": "walkingrl/deployment/jetson_r25/new_home_release/monitor_joint_motion.py",
+      "source_sha256": "c2d3dc167d2404ebe28feeb973dc35514ba7a11bc6322b385a3e04b55dd71631"
+    },
+    {
+      "path": "rollout.py",
+      "source": "walkingrl/deployment/jetson_v13/rollout.py",
+      "source_sha256": "12d0da3b069f7c4f567224c4aa76bb49c8079fa1783f4b5672f2208deb93a60b"
+    },
+    {
+      "path": "v13_math.py",
+      "source": "walkingrl/deployment/jetson_v13/v13_math.py",
+      "source_sha256": "2c27f4b18ca66d4fcef2119277651f098df740e946163dd60d50341a72cc144e"
+    },
+    {
+      "path": "v13_io_contract.json",
+      "source": "walkingrl/deployment/jetson_v13/v13_io_contract.json",
+      "source_sha256": "168e193841e9e61a9c8800cc654a3a03ac1aa936c95d1e92aeac2cd71d89a5f7"
+    },
+    {
+      "path": "capture_whole_body_home.py",
+      "source": "walkingrl/deployment/jetson_v13/capture_whole_body_home.py",
+      "source_sha256": "6fe2cccb1c1089b429f65b6c68f9920a17d1eaf25e55b49c66f2909f6587ba20"
+    },
+    {
+      "path": "manual_joint_calibration.py",
+      "source": "walkingrl/deployment/jetson_v13/manual_joint_calibration.py",
+      "source_sha256": "912f1738d616aed7101a61b2ed01a083551fa87f77a8362c5d8e23e74da7d8a2"
+    },
+    {
+      "path": "manual_arm_calibration.py",
+      "source": "walkingrl/deployment/jetson_v13/manual_arm_calibration.py",
+      "source_sha256": "07088c4db7578e1c16e40ff2739bcde6616885f7ba2bfe98ae6dd2bc2082e8ba"
+    },
+    {
+      "path": "collect_system.py",
+      "source": "walkingrl/deployment/jetson_v13/collect_system.py",
+      "source_sha256": "1d1964667a77fd5defb1b4f80e851e8edffeb95c1f49f6a0c2a1b7ceee92f793"
+    },
+    {
+      "path": "provenance/r25_model_300.pt",
+      "source": "mars-weekly-progress/Progress/Week4/policies/joystick_walking_r25_300/model_300.pt",
+      "source_sha256": "3bf72dd99c3c75049db74b4d50c94a6f3ce270af6887a7c048a16130b1ba6202"
+    },
+    {
+      "path": "provenance/r25_source_run.json",
+      "source": "mars-weekly-progress/Progress/Week4/policies/joystick_walking_r25_300/run.json",
+      "source_sha256": "71471c5035fffbe96f16d362c697ce6861b9f6069b9b4085853a4bc593e1360f"
+    },
+    {
+      "path": "provenance/r25_source_accepted_policy.json",
+      "source": "mars-weekly-progress/Progress/Week4/config/accepted_policy.json",
+      "source_sha256": "d4e370323a90f3e03ce0844fc464dba41d84e4b859f5dcb261c09a725e72bdd0"
+    },
+    {
+      "path": "docs/MOTOR_MAPPING_SNAPSHOT.txt",
+      "source": "walkingrl/dist/R25_MOTOR_MAPPING_NEW_HOME.txt",
+      "source_sha256": "7dab804f8f66a4f51511f5d993cac8d466d47d52530412ff17a45ce1137e7761"
+    },
+    {
+      "path": "docs/VIBE_A1_DOCUMENTED_LIMITS.json",
+      "source": "walkingrl/dist/VIBE_A1_DOCUMENTED_LIMITS.json",
+      "source_sha256": "1cf07925f9784b6dcd0535fd6ddbc83555a138d6508e4a81b131558fdf3dd98c"
+    },
+    {
+      "path": "docs/VISUAL_HOME_REJECTED.json",
+      "source": "walkingrl/deployment/jetson_r25/angle_home_release/VISUAL_HOME_REJECTED.json",
+      "source_sha256": "c34562a961b5a78abb61d8fe02e3a9fbb4f47e09b7264826146770444a001122"
+    },
+    {
+      "path": "docs/rejected_visual_home_candidate.json",
+      "source": "walkingrl/deployment/jetson_r25/angle_home_release/r25_visual_home_candidate.json",
+      "source_sha256": "d95d7494288e114d5cf021054e5941bda439e0ca4669d1c8d465c3b8d15cd3d8"
+    },
+    {
+      "path": "docs/R25_REFERENCE_EXTRACT.json",
+      "source": "walkingrl/deployment/jetson_r25/reference_extract_20261112/R25_REFERENCE_EXTRACT.json",
+      "source_sha256": "c3ae409cf3554ba221f08c446aeaddbc7f6efc5570b815a6d6dba145011ee427"
+    },
+    {
+      "path": "provenance/R25_SOURCE_MANIFEST.json",
+      "source": "walkingrl/deployment/jetson_r25/reference_extract_20261112/SOURCE_MANIFEST.json",
+      "source_sha256": "599e7fca2b0c230173f2dc395e7fdb42d5cf3e390ac7872cfab54eaf77530db3"
+    },
+    {
+      "path": "calibration_evidence/whole_body_home_1794439281586950429.json",
+      "source": "user_download/whole_body_home_1794439281586950429.json",
+      "source_sha256": "d8e2e0d3b14fc2cc444d7a5326c77d6353d1a213b67e6c0a94bfbb066549612e"
+    },
+    {
+      "path": "replay_r25_goals.py",
+      "source": "walkingrl/deployment/jetson_r25/replay_r25_goals.py",
+      "source_sha256": "8990266fb67c5cbb2b871ddb55e6ea2caf5da066032638e7c0c2a40522da09b0"
+    },
+    {
+      "path": "replay_r25_viser.py",
+      "source": "walkingrl/deployment/jetson_r25/replay_r25_viser.py",
+      "source_sha256": "20c8620937b0f9eef9b2e58375c834cdd02d9ba7a3cf5b2b4bf96db10b2c8ea2"
+    },
+    {
+      "path": "show_r25_home.py",
+      "source": "walkingrl/deployment/jetson_r25/show_r25_home.py",
+      "source_sha256": "8e400de1dbb1713279b4fe30df1c0eac98bf07f315340c3c8c5efdb74e6b8ba4"
+    }
+  ],
+  "adaptations": [
+    "Read-only range recorder labels follow current R25 mapping",
+    "Visualization paths are repository relative"
+  ],
+  "active_contract_sha256": "300cf9bf8f25b0d18dcb7d35a090198f9c77a05ec7514ec2290ccc5011b3a1d1",
+  "note": "Jetson not accessed directly. Active mapping/Home is the preserved local release, also identified by latest downloaded rollout logs."
+}

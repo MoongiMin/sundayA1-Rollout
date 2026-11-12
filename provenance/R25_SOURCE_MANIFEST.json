@@ -1,0 +1,117 @@
+{
+  "repository": "Auspr7ng/mars-weekly-progress",
+  "requested_url": "https://github.com/Auspr7ng/mars-weekly-progress/blob/main/Progress/Week4/policies/joystick_walking_r25_300/source/env_cfg.py",
+  "commit": "f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1",
+  "retrieved_date_local": "2026-11-12",
+  "timezone": "America/Indianapolis",
+  "files": [
+    {
+      "repository_path": "Progress/Week4/policies/joystick_walking_r25_300/source/env_cfg.py",
+      "snapshot_path": "sources/Progress/Week4/policies/joystick_walking_r25_300/source/env_cfg.py",
+      "github_blob_sha": "2e7fe730bc339891ac4dea47323d8e20c20609e5",
+      "url": "https://github.com/Auspr7ng/mars-weekly-progress/blob/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/policies/joystick_walking_r25_300/source/env_cfg.py",
+      "sha256": "75ed45c6e9b5bbf60ace3ec14f1ccb38f9ff8540df4a05380ec19b9bc339a267",
+      "size_bytes": 12116,
+      "github_blob_verified": true
+    },
+    {
+      "repository_path": "Progress/Week4/policies/joystick_walking_r25_300/source/mdp.py",
+      "snapshot_path": "sources/Progress/Week4/policies/joystick_walking_r25_300/source/mdp.py",
+      "github_blob_sha": "d0ae59a93a2f3e72f4d3c3ba6bd8386fd15356bd",
+      "url": "https://github.com/Auspr7ng/mars-weekly-progress/blob/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/policies/joystick_walking_r25_300/source/mdp.py",
+      "sha256": "dcbb336baa644f621fe0505230ff1441a7f604306dfdbbe3139ad597bc442d9e",
+      "size_bytes": 20858,
+      "github_blob_verified": true
+    },
+    {
+      "repository_path": "Progress/Week4/policies/joystick_walking_r25_300/source/control_mdp.py",
+      "snapshot_path": "sources/Progress/Week4/policies/joystick_walking_r25_300/source/control_mdp.py",
+      "github_blob_sha": "afc0a03bac65a457588f44090db04f3f68cd0b39",
+      "url": "https://github.com/Auspr7ng/mars-weekly-progress/blob/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/policies/joystick_walking_r25_300/source/control_mdp.py",
+      "sha256": "5b43cbd456b4f7aee15a6053224801ea41e5681d0a680baf948b0ed2e426dd04",
+      "size_bytes": 8941,
+      "github_blob_verified": true
+    },
+    {
+      "repository_path": "Progress/Week4/policies/joystick_walking_r25_300/run.json",
+      "snapshot_path": "sources/Progress/Week4/policies/joystick_walking_r25_300/run.json",
+      "github_blob_sha": "805015725d7516565d90222b9258147bc6665f9c",
+      "url": "https://github.com/Auspr7ng/mars-weekly-progress/blob/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/policies/joystick_walking_r25_300/run.json",
+      "sha256": "71471c5035fffbe96f16d362c697ce6861b9f6069b9b4085853a4bc593e1360f",
+      "size_bytes": 1999,
+      "github_blob_verified": true
+    },
+    {
+      "repository_path": "Progress/Week4/policies/joystick_walking_r25_300/env.yaml",
+      "snapshot_path": "sources/Progress/Week4/policies/joystick_walking_r25_300/env.yaml",
+      "github_blob_sha": "e49bc32b71c36bbc1ed99dfbd19a70839661c93b",
+      "url": "https://github.com/Auspr7ng/mars-weekly-progress/blob/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/policies/joystick_walking_r25_300/env.yaml",
+      "sha256": "34f64f1d055ae71522bcfce7366c406fa583c7a52f4240731e04ffd8e9202b2e",
+      "size_bytes": 24942,
+      "github_blob_verified": true
+    },
+    {
+      "repository_path": "Progress/Week4/policies/joystick_walking_r25_300/agent.yaml",
+      "snapshot_path": "sources/Progress/Week4/policies/joystick_walking_r25_300/agent.yaml",
+      "github_blob_sha": "db8a8c4f9310b0a0718c2e169d0076eb1783be8f",
+      "url": "https://github.com/Auspr7ng/mars-weekly-progress/blob/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/policies/joystick_walking_r25_300/agent.yaml",
+      "sha256": "54ff997edad956c5b44d4dff524294d43c0a386125a48fe91d6f8e9d14842a38",
+      "size_bytes": 1570,
+      "github_blob_verified": true
+    },
+    {
+      "repository_path": "Progress/Week4/policies/joystick_walking_r25_300/dynamics/sunday_a1_locomotion.xml",
+      "snapshot_path": "sources/Progress/Week4/policies/joystick_walking_r25_300/dynamics/sunday_a1_locomotion.xml",
+      "github_blob_sha": "c9d00ef707d8ee97c724d409279c8d6a2f9c89fe",
+      "url": "https://github.com/Auspr7ng/mars-weekly-progress/blob/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/policies/joystick_walking_r25_300/dynamics/sunday_a1_locomotion.xml",
+      "sha256": "c1168aee2b339adc15fa8fc3338e42c729dc92f0db07891c685cf96ca604bcd2",
+      "size_bytes": 36936,
+      "github_blob_verified": true
+    },
+    {
+      "repository_path": "Progress/Week4/model/home.json",
+      "snapshot_path": "sources/Progress/Week4/model/home.json",
+      "github_blob_sha": "04b738c2644783780c8b66d25306bd5625b66221",
+      "url": "https://github.com/Auspr7ng/mars-weekly-progress/blob/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/home.json",
+      "sha256": "462c3238221762031b637c4f15a3885af5c2ba278b75fd795fdaa2c2a223f52e",
+      "size_bytes": 6656,
+      "github_blob_verified": true
+    },
+    {
+      "repository_path": "Progress/Week4/model/arm_clearance_home.json",
+      "snapshot_path": "sources/Progress/Week4/model/arm_clearance_home.json",
+      "github_blob_sha": "e210577e619f42ed9d22a0732b03493a368331bb",
+      "url": "https://github.com/Auspr7ng/mars-weekly-progress/blob/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/model/arm_clearance_home.json",
+      "sha256": "877c3e74609dc365e37aa49f1816be5b1ad2343b796ae00bd71303cc2a6f21f4",
+      "size_bytes": 7023,
+      "github_blob_verified": true
+    },
+    {
+      "repository_path": "Progress/Week4/policies/joystick_walking_r25_300/source/cadence.py",
+      "snapshot_path": "sources/Progress/Week4/policies/joystick_walking_r25_300/source/cadence.py",
+      "github_blob_sha": "72b0b0c0fe728691d37f898597b48bd408b11574",
+      "url": "https://github.com/Auspr7ng/mars-weekly-progress/blob/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/policies/joystick_walking_r25_300/source/cadence.py",
+      "sha256": "6708c69d7578966619d13845b4b566f061f52cbb4fa7a2b22852cd27ca97aa48",
+      "size_bytes": 680,
+      "github_blob_verified": true
+    },
+    {
+      "repository_path": "Progress/Week4/policies/joystick_walking_r25_300/source/train.py",
+      "snapshot_path": "sources/Progress/Week4/policies/joystick_walking_r25_300/source/train.py",
+      "github_blob_sha": "6518ce97ab3f97d8bd04de07759210160d938e86",
+      "url": "https://github.com/Auspr7ng/mars-weekly-progress/blob/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/policies/joystick_walking_r25_300/source/train.py",
+      "sha256": "80a3cd20efcd2345e452b4a4fe4c5005229d0f04265227e8e44f305cc720a0ad",
+      "size_bytes": 13879,
+      "github_blob_verified": true
+    },
+    {
+      "repository_path": "Progress/Week4/code/src/sunday_locomotion/paths.py",
+      "snapshot_path": "sources/Progress/Week4/code/src/sunday_locomotion/paths.py",
+      "github_blob_sha": "8375be61d2422d8b1b6a64da08e9c16d78d5506a",
+      "url": "https://github.com/Auspr7ng/mars-weekly-progress/blob/f403f5bad223b8628d33a0bdee7de7fe9dbd9ed1/Progress/Week4/code/src/sunday_locomotion/paths.py",
+      "sha256": "c55b4e42cdb82a9e363d03b41d079a43cf810d9cd04591ad3188ecb680b938b8",
+      "size_bytes": 149,
+      "github_blob_verified": true
+    }
+  ]
+}

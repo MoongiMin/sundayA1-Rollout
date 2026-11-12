@@ -1,0 +1,203 @@
+{
+  "completed": true,
+  "error": null,
+  "sample_count": 881,
+  "motor_commands_sent": false,
+  "ports": {
+    "left_arm": "/dev/serial/by-id/usb-1a86_USB_Single_Serial_5B3D040665-if00",
+    "right_arm": "/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6082486-if00"
+  },
+  "motor_settings": {
+    "left_arm": {
+      "1": {
+        "model": 777,
+        "mode": 0,
+        "torque_enabled": 0,
+        "homing_offset": 347
+      },
+      "2": {
+        "model": 777,
+        "mode": 0,
+        "torque_enabled": 0,
+        "homing_offset": 1766
+      },
+      "3": {
+        "model": 777,
+        "mode": 0,
+        "torque_enabled": 0,
+        "homing_offset": -1233
+      },
+      "4": {
+        "model": 777,
+        "mode": 0,
+        "torque_enabled": 0,
+        "homing_offset": -1598
+      },
+      "5": {
+        "model": 777,
+        "mode": 0,
+        "torque_enabled": 0,
+        "homing_offset": 1702
+      },
+      "6": {
+        "model": 777,
+        "mode": 0,
+        "torque_enabled": 0,
+        "homing_offset": 718
+      }
+    },
+    "right_arm": {
+      "1": {
+        "model": 777,
+        "mode": 0,
+        "torque_enabled": 0,
+        "homing_offset": 1817
+      },
+      "2": {
+        "model": 777,
+        "mode": 0,
+        "torque_enabled": 0,
+        "homing_offset": -1885
+      },
+      "3": {
+        "model": 777,
+        "mode": 0,
+        "torque_enabled": 0,
+        "homing_offset": -1741
+      },
+      "4": {
+        "model": 777,
+        "mode": 0,
+        "torque_enabled": 0,
+        "homing_offset": 1630
+      },
+      "5": {
+        "model": 777,
+        "mode": 0,
+        "torque_enabled": 0,
+        "homing_offset": -1895
+      },
+      "6": {
+        "model": 777,
+        "mode": 0,
+        "torque_enabled": 0,
+        "homing_offset": -1653
+      }
+    }
+  },
+  "arms": {
+    "left_arm": {
+      "1": {
+        "min_tick": 838,
+        "max_tick": 3042,
+        "span_ticks": 2204,
+        "first_tick": 2000,
+        "last_tick": 2856,
+        "reported_joint": "left_shoulder_pitch",
+        "joint_mapping_physically_verified": false
+      },
+      "2": {
+        "min_tick": 1747,
+        "max_tick": 3671,
+        "span_ticks": 1924,
+        "first_tick": 2169,
+        "last_tick": 2071,
+        "reported_joint": "left_shoulder_roll",
+        "joint_mapping_physically_verified": false
+      },
+      "3": {
+        "min_tick": 991,
+        "max_tick": 3144,
+        "span_ticks": 2153,
+        "first_tick": 1987,
+        "last_tick": 2036,
+        "reported_joint": "left_elbow_yaw",
+        "joint_mapping_physically_verified": false
+      },
+      "4": {
+        "min_tick": 1104,
+        "max_tick": 3066,
+        "span_ticks": 1962,
+        "first_tick": 2117,
+        "last_tick": 2964,
+        "reported_joint": "left_elbow_pitch",
+        "joint_mapping_physically_verified": false
+      },
+      "5": {
+        "min_tick": 974,
+        "max_tick": 3249,
+        "span_ticks": 2275,
+        "first_tick": 2070,
+        "last_tick": 2136,
+        "reported_joint": "left_wrist_yaw",
+        "joint_mapping_physically_verified": false
+      },
+      "6": {
+        "min_tick": 1823,
+        "max_tick": 1825,
+        "span_ticks": 2,
+        "first_tick": 1823,
+        "last_tick": 1825,
+        "reported_joint": "left_hand",
+        "joint_mapping_physically_verified": false
+      }
+    },
+    "right_arm": {
+      "1": {
+        "min_tick": 957,
+        "max_tick": 3033,
+        "span_ticks": 2076,
+        "first_tick": 1844,
+        "last_tick": 1670,
+        "reported_joint": "right_shoulder_pitch",
+        "joint_mapping_physically_verified": false
+      },
+      "2": {
+        "min_tick": 379,
+        "max_tick": 2039,
+        "span_ticks": 1660,
+        "first_tick": 1859,
+        "last_tick": 1853,
+        "reported_joint": "right_shoulder_roll",
+        "joint_mapping_physically_verified": false
+      },
+      "3": {
+        "min_tick": 699,
+        "max_tick": 2957,
+        "span_ticks": 2258,
+        "first_tick": 1910,
+        "last_tick": 1728,
+        "reported_joint": "right_elbow_yaw",
+        "joint_mapping_physically_verified": false
+      },
+      "4": {
+        "min_tick": 1266,
+        "max_tick": 3214,
+        "span_ticks": 1948,
+        "first_tick": 2302,
+        "last_tick": 2407,
+        "reported_joint": "right_elbow_pitch",
+        "joint_mapping_physically_verified": false
+      },
+      "5": {
+        "min_tick": 1075,
+        "max_tick": 3349,
+        "span_ticks": 2274,
+        "first_tick": 2292,
+        "last_tick": 2257,
+        "reported_joint": "right_wrist_yaw",
+        "joint_mapping_physically_verified": false
+      },
+      "6": {
+        "min_tick": 1363,
+        "max_tick": 2700,
+        "span_ticks": 1337,
+        "first_tick": 1841,
+        "last_tick": 2689,
+        "reported_joint": "right_hand",
+        "joint_mapping_physically_verified": false
+      }
+    }
+  },
+  "note": "Observed hand-moved range only. No joint-name mapping, Home, safe limit, or CAD direction inferred."
+}
